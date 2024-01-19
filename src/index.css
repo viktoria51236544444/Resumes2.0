@@ -14,6 +14,13 @@ body {
     opacity: 1;
   }
 }
+.content_resumes {
+  margin-top: 70px;
+  width: 800px;
+}
+.resumes {
+  display: flex;
+}
 nav {
   display: inline;
   background-color: #bd9047;
@@ -21,9 +28,16 @@ nav {
 .navbar {
   background-color: #bd9047;
   display: flex;
+  width: 100%;
+}
+.nav_resumes {
+  margin-left: 600px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 #cap {
-  margin-left: 1300px;
+  margin-left: 480px;
   color: #444;
   font-family: Poppins;
   font-size: 13px;

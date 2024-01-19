@@ -2,14 +2,14 @@ import React from "react";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
-import Animazy from "./components/Animazy";
+
+import MainRoutes from "./MainRoutes";
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Animazy />
-      <MainContent />
+      <MainRoutes />
       <Footer />
     </div>
   );
